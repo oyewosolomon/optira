@@ -21,9 +21,9 @@ const Index = () => {
   return (
     <PageLayout>
       <SEO 
-        title="WRLDS - Smart Textile Technology" 
-        description="WRLDS Technologies: Pioneering smart engineering solutions with textile sensors for sports, safety, and performance monitoring."
-        imageUrl="/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png"
+        title="Optira - Strategic Technical Partnership for Startups" 
+        description="Optira provides early-stage startups with CTO-level strategic guidance, team scaling expertise, and MVP architecture planning to accelerate product-market fit"
+        imageUrl="/lovable-uploads/logo.png"
         keywords={['smart textiles', 'wearable technology', 'textile sensors', 'sports tech', 'safety monitoring', 'performance analytics', 'manufacturing']}
       />
       <Hero />
