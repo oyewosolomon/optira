@@ -77,6 +77,13 @@ const Navbar = () => {
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <Link to="#process">
+                    <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), isScrolled ? "text-gray-700 hover:text-gray-900" : "text-gray-100 hover:text-white bg-transparent hover:bg-gray-800")}>
+                      Processes
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
                 
                 <NavigationMenuItem>
                   
@@ -141,13 +148,7 @@ const Navbar = () => {
                   </NavigationMenuContent>
                 </NavigationMenuItem>
                 
-                <NavigationMenuItem>
-                  <Link to="#process">
-                    <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), isScrolled ? "text-gray-700 hover:text-gray-900" : "text-gray-100 hover:text-white bg-transparent hover:bg-gray-800")}>
-                      Processes
-                    </NavigationMenuLink>
-                  </Link>
-                </NavigationMenuItem>
+                
                 
                 <NavigationMenuItem>
                   <Link to="/careers">
